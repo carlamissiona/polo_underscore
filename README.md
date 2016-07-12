@@ -1,3 +1,4 @@
-This is my wordpress theme 
+Hi this is my wordpress theme 
 Its still under dev 
-and has 30% remaining :)
+and has 30% remaining :) 
+
