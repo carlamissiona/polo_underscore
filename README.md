@@ -1,1 +1,3 @@
-polo_underscore
+This is my wordpress theme 
+Its still under dev 
+and has 30% remaining :)
