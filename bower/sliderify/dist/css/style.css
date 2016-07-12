@@ -1,0 +1,74 @@
+* {
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "MicroSoft Yahei";
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+
+pre {
+  border: none;
+  border-radius: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 9;
+}
+
+.fork-me {
+  position: fixed;
+  top: 50px;
+  right: -80px;
+  width: 300px;
+  padding: .5em 0;
+  text-align: center;
+  background: #000;
+  z-index: 666;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.fork-me a {
+  display: block;
+  color: #fff;
+}
+
+.sliderify-container .sliderify-slide:nth-child(1) {
+  background: #F06868;
+}
+.sliderify-container .sliderify-slide:nth-child(2) {
+  background: #F5F35B;
+}
+.sliderify-container .sliderify-slide:nth-child(3) {
+  background: #62C778;
+}
+.sliderify-container .sliderify-slide:nth-child(4) {
+  background: #F06868;
+}
+.sliderify-container .sliderify-slide:nth-child(5) {
+  background: #F5F35B;
+}
+.sliderify-container .sliderify-slide:nth-child(6) {
+  background: #62C778;
+}
+
+.footer {
+  text-align: center;
+  padding: 3em 0;
+}
+
+/*# sourceMappingURL=style.css.map */

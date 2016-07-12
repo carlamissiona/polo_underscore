@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Sliderify</title>
+	<link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./dist/css/sliderify.css">
+	<link rel="stylesheet" href="./dist/css/style.css">
+</head>
+<body>
+
+	<div class="fork-me">
+		<a href="https://github.com/JustClear/sliderify" target="_blank">Fork me on Github</a>
+	</div>
+
+	<header class="header">
+		<div class="container">
+			
+		</div>
+	</header>
+
+	<div class="sliderify-container">
+		<div class="sliderify-wrapper" draggable="true">
+			<div class="sliderify-slide"><h1></h1>Slide One</div>
+			<div class="sliderify-slide">Slide Two</div>
+			<div class="sliderify-slide">Slide Three</div>
+			<div class="sliderify-slide">Slide Four</div>
+			<div class="sliderify-slide">Slide Five</div>
+			<div class="sliderify-slide">Slide Six</div>
+		</div>
+
+		<div class="sliderify-prev"></div>
+		<div class="sliderify-next"></div>
+		
+		<div class="sliderify-pagination"></div>
+	</div>
+
+	<section class="section">
+		<div class="container">
+			<h2>Getting Started With Sliderify</h2>
+
+			<h3>Import CSS and JavaScript file.</h3>
+			<pre>
+				<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+	&lt;link rel="stylesheet" href="./dist/css/sliderify.min.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;script src="./libs/jquery/dist/jquery.js"&gt;&lt;/script&gt;
+	&lt;script src="./dist/js/sliderify.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;   
+				</code>
+			</pre>
+
+			<h3>Add sliderify HTML Layout.</h3>
+			<pre>
+				<code>
+&lt;!-- Sliderify main container --&gt;
+&lt;div class="sliderify-container"&gt;
+
+	&lt;!-- Additional required wrapper --&gt;
+	&lt;div class="sliderify-wrapper"&gt;
+		&lt;div class="sliderify-slide"&gt;Slide 1&lt;/div&gt;
+		&lt;div class="sliderify-slide"&gt;Slide 2&lt;/div&gt;
+		&lt;div class="sliderify-slide"&gt;Slide 3&lt;/div&gt;
+		&lt;div class="sliderify-slide"&gt;Slide 4&lt;/div&gt;
+		&lt;div class="sliderify-slide"&gt;Slide 5&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- pagination buttons --&gt;
+	&lt;div class="sliderify-prev"&gt;Prev&lt;/div&gt;
+	&lt;div class="sliderify-next"&gt;Next&lt;/div&gt;
+
+	&lt;!-- pagination --&gt;
+	&lt;div class="sliderify-pagination"&gt;&lt;/div&gt;
+&lt;/div&gt;
+				</code>
+			</pre>
+
+			<h3>Options</h3>
+			<pre>
+				<code>
+$('.sliderify-wrapper').sliderify({
+	// Initial slide.
+	initialSlide: 0, 
+	
+	// Whether to auto play.
+	autoPlay: true, 
+	
+	// Auto play interval.
+	autoPlayInterval: 3000,
+
+	// On hover to stop automaic play.
+	onHoverStopAutoPlay: true,
+
+	// Sliding interval.
+	slidingInterval: 500,
+	
+	// Whether to hide the pagination.
+	hidePagination: false,
+	
+	// Whether to hide the pagination buttons.
+	hidePaginationButtons: false,
+
+	// Pagination buttons text,
+	// If you want to use text pagination,
+	// You can use array `['Prev', 'Next']`,
+	// Otherwise you can use string `'arrow'`.
+	paginationButtonsText: 'arrow', 
+	
+	// Whether use keyboard to control.
+	keyboardControl: true
+
+	// Whether to support drag.
+	isDraggable: true
+});
+				</code>
+			</pre>
+
+			<h3>Todos</h3>
+			<ul>
+				<li>Touch support.</li>
+				<li>Draggable support. - Done</li>
+				<li>Loop slide.</li>
+				<li>On hover stop automatic play. - Done</li>
+				<li>Mousewheel control</li>
+			</ul>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<p>
+				<a href="https://github.com/JustClear/sliderify">View on GitHub</a>
+				<a href="http://justclear.github.io/">@JustClear</a>
+			</p>
+		</div>
+	</footer>
+
+	<!-- <script src="./libs/jquery/dist/jquery.js"></script> -->
+	<script src="./libs/jquery/dist/jquery-1.9.1.min.js"></script>
+	<script src="./src/js/sliderify.js"></script>
+	<script>
+		$('.sliderify-container').sliderify({
+			// default options
+			initialSlide: 0,
+			autoPlay: true,
+			autoPlayInterval: 3000,
+			onHoverStopAutoPlay: true,
+			slidingInterval: 500,
+			hidePagination: false,
+			hidePaginationButtons: false,
+			paginationButtonsText: 'arrow',
+			keyboardControl: true,
+			isDraggable: true
+		});
+	</script>
+</body>
+</html>

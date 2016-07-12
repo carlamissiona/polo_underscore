@@ -1,0 +1,37 @@
+{
+  "name": "sliderify",
+  "description": "A simple slider.",
+  "main": "app.js",
+  "authors": [
+    "JustClear"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "slider"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/justclear/sliderify#readme",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "version": "1.1.1",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.1",
+    "commit": "e341636ad88e9ed49c4f103be45799ef1df3c905"
+  },
+  "_source": "https://github.com/justclear/sliderify.git",
+  "_target": "^1.1.1",
+  "_originalSource": "sliderify",
+  "_direct": true
+}

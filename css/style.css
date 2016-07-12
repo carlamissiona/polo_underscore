@@ -1,0 +1,193 @@
+body{
+    overflow-x: hidden;
+}
+
+.logo *{
+    float:left;
+    display: inline;    
+}
+ 
+span.menu-list-title {
+    font-weight: 600;    
+    
+}
+
+.menu ul{
+    list-style-type:none; 
+}
+  
+.menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 18%;
+    height: 30px;
+    position: relative;
+    margin: 10px 4px 10px 0;
+}
+
+.menu ul li span {
+    display: inline-block;
+    float: left; 
+}
+.menu-item-desc{ 
+    font-size: 10px;
+}
+.menu span.menu-list-title {
+    width: 100%;
+    font:700 14px / 14px Georgia;
+    font-weight: 700;
+}
+
+.slider {
+    background-color: #000000;
+    background: url(./images/pat-slider-black.png) 0 4px;
+    background-repeat: repeat-x;
+    width: 102.8%;
+    margin: 0 -1.5% 0 -1.5%;
+    padding: 1.5% 4% 0;
+    margin-top:24px;
+    padding-top:24px;
+}
+.slider .slide-show .sliderify-container{
+    border-radius:3px;
+    height: 342px;        
+}
+
+.site-desc h3{
+    color: #000000;
+    font: 700 24px Georgia;
+    text-align: center;
+    margin:24px auto;
+    border-bottom:1px thin #000;    
+}
+.gallery-item h4{
+    margin:30px 0 0;
+    color: #10719e;
+    font: 400 25px Georgia;
+}
+.gallery-desc{
+    color: #8c8c8c;
+    font: 400 13px Helvetica;
+}
+.gallery-image{
+    
+    border: 1px solid #f8f8f8;
+    border-radius;10px;
+    box-shadow: 1px 2px #fcfcfc;
+    padding:10px;
+    height:100%;
+    width:100%;
+    margin:18px 0 16px;
+}
+
+.gallery-summary{
+   color: #3e3e3e;
+   font: 400 13px / 18.4px Helvetica; 
+   text-align: justify;
+   margin:10px 0; 
+    
+}
+.gallery-learn-more{
+    background: url(images/learn-more.png) no-repeat;
+    border:none;
+    width:163px; 
+    color: #10719e;
+    text-align: left;
+    padding: 5px 0 7px 10px ;
+    margin-bottom:45px;
+}
+.home-gallery .col-md-12{
+    border:1px solid #fff;
+    border-bottom: 1px solid #ddd;      
+    
+}
+.site-widgets .container {    
+    margin-top: 45px;    
+}
+.site-widgets h4{
+    color: #444444;
+    font: 400 18px / 14px Georgia;
+    padding-bottom: 20px;
+    border:1px solid #fff;
+    border-bottom:1px solid #d3d3d3;
+    margin-bottom: 15px;
+    border-style: dashed;
+
+}
+.social-connection-paragraph{
+    text-align: justify;
+    color: #444444;
+    font: 400 12px / 14px Helvetica;
+}
+.social-newsletter h5{
+    color: #444444;
+    font: 700 18px / 14px GillSansMT;
+    margin-top: 38px 0 10px ;
+}
+.contact-us form input, .contact-us form textarea {
+    margin-bottom: 10px; 
+}
+.update-item{
+    display: block;
+    margin: 10px 0 ;
+    padding: 3px;
+ 
+}
+.updates-desc{
+        border:1px solid #fff;
+    border-bottom: 1px solid #dfdfdf;
+    border-style: dashed;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    color: #444444;
+    padding-top: 9px;
+    font: 400 13px / 20px Helvetica;
+}
+img.news-img {
+    border-radius: 5px;
+    float: left;
+    margin: 7px 10px 25px;
+    border: 1px solid #f7f7f7;
+    padding:10px;
+}
+.news-updates-btn, .subscribe-btn, .contact-us-btn {
+    margin-top: 10px;
+    background: url(images/visit-blog-btn.png) no-repeat no-repeat;
+    color: #fff;
+    font: 400 12px Helvetica;
+    padding: 2% 21% 7% 16%;
+    background-color: transparent;
+    width: auto;
+    border: none;
+}
+
+.site-footer{
+    border-top: 8px solid #666;
+    background-color: #111;
+    padding: 10% 5%;
+    margin: 2% -5% -26px;
+    padding-top: 30px;
+    color: #999999;
+    font: 400 11px / 10px Helvetica;
+    width: 107%;
+    height: inherit;
+}
+
+ 
+.site-footer .footer-links ul{ 
+    list-style-type: none;
+    margin: 0 0 8px -40px;
+    
+} 
+.site-footer ul li{
+    display: inline-block;
+    border-left: 1px solid #999;
+    padding: 0 4px ;
+    
+}
+.site-footer a{ 
+    color: #999999;
+    font: 400 11px / 10px Helvetica;
+    display: inline-block;
+}
